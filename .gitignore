@@ -1,0 +1,82 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Virtual Environment
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==============================
+# Model Files
+# ==============================
+Data/models/
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+
+# ==============================
+# ChromaDB / Vector Database
+# ==============================
+Data/data/processed/chroma_db/
+Data/data/processed/chroma_db_openai/
+chroma_db/
+chroma.sqlite3
+*.parquet
+
+# ==============================
+# Raw / Processed Data
+# ==============================
+Data/data/raw/
+Data/data/processed/
+*.jsonl
+*.csv
+
+# ==============================
+# Logs / Temporary Files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ==============================
+# IDE / OS
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Cache
+# ==============================
+.cache/
+huggingface/
+transformers/
